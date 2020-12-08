@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mainplaces>
+  <section name="For singles">
+	<place>
+	  <item>Tenerife</item>
+      <type>hot and relax</type>
+    </place>
+    <placee>
+      <item>Croatia</item>
+      <type>Adventure</type>
+    </place>
+	<place VIP ="true">
+      <item>Poland</item>
+      <type>Resort</type>
+	  </place>
+  </section>
+  <section name="For couple">
+    <place>
+      <item>FuerteVentura</item>
+      <type>Hot and Relax</type>
+    </place>
+    <place>
+      <item>Paris</item>
+      <type>Cool and Romantic</type>
+    </place>
+    <place VIP ="true">
+      <item>Greece Zakynthos</item>
+      <type>Resort</type>
+    </place>
+    <place VIP ="true">
+      <item>Portugal Algarve</item>
+      <type>Resort</type>
+    </place>
+    <place>
+      <item>Spain Mallorca</item>
+      <type>Night Life</type>
+    </place>
+  </section>
+  <section name="For family">
+    <place>
+      <item>France Disney</item>
+      <type>Fun</type>
+    </place>
+    <place>
+      <item>Arkansas</item>
+      <type>Adventure</type>
+    </place>
+    <place VIP="true">
+      <item>Orlando WaltDisney</item>
+      <type>Resort</type>
+    </place>
+  </section>
+  <section name="For friends">
+    <place>
+      <item>Amsterdam</item>
+      <type>Night Life</type>
+    </place>
+    <place>
+      <item>Spain Barcelona</item>
+      <type>Enjoy big city</type>
+    </place>
+    <place VIP="true">
+      <item>L.A California</item>
+      <type>Resort</type>
+    </place>
+  </section>
+</mainplaces>
