@@ -9,7 +9,7 @@
       <item>Croatia</item>
       <type>Adventure</type>
     </place>
-	<place VIP ="true">
+	<place>
       <item>Poland</item>
       <type>Resort</type>
 	  </place>
@@ -23,11 +23,11 @@
       <item>Paris</item>
       <type>Cool and Romantic</type>
     </place>
-    <place VIP ="true">
+    <place>
       <item>Greece Zakynthos</item>
       <type>Resort</type>
     </place>
-    <place VIP ="true">
+    <place>
       <item>Portugal Algarve</item>
       <type>Resort</type>
     </place>
@@ -45,7 +45,7 @@
       <item>Arkansas</item>
       <type>Adventure</type>
     </place>
-    <place VIP="true">
+    <place>
       <item>Orlando WaltDisney</item>
       <type>Resort</type>
     </place>
@@ -59,7 +59,7 @@
       <item>Spain Barcelona</item>
       <type>Enjoy big city</type>
     </place>
-    <place VIP="true">
+    <place>
       <item>L.A California</item>
       <type>Resort</type>
     </place>
