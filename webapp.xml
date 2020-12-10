@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?xml-stylesheet type='text/css' href='style.css'?>
-<document>
-    <module lecturer="20191234">Interactive Web Applications&#33;</module>
-    <module>
-      <ca>CA Web App</ca>
-        <title>My first app</title>  
-    </module>
-</document>
