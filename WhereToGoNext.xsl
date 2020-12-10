@@ -80,9 +80,7 @@
                             </tr>
                             <xsl:for-each select="place">
                                 <tr>
-                                    <xsl:attribute name="VIP">
-                                        <xsl:value-of select="name" />
-                                    </xsl:attribute>
+                                    <xsl:value-of select="name" />
                                     <td align="center">
                                         <input name="item0" type="checkbox" />
                                     </td>
