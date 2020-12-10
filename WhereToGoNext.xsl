@@ -75,7 +75,7 @@
                         <xsl:for-each select="/mainplaces/section">
                           <tr>
                                 <td colspan="3">
-                                    <xsl:value-of select="name" />
+                                    <xsl:value-of select="@name" />
                                 </td>
                             </tr>
                             <xsl:for-each select="place">
