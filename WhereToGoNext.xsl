@@ -58,7 +58,8 @@
 			</style>
         </head>
             <body>
-                <h2><img src= "workspace/xml-webapp/logo.png" alt="WhereToGoNext" width="58" height="100"/> Welcome to Where to go next</h2>
+		    <form method="post" action="edittool.asp">
+                <h2><img src= "https://www.logodesignlove.com/images/classic/next-logo-paul-rand.jpg" alt="WhereToGoNext" width="58" height="100"/> Welcome to Where to go next</h2>
                 <p>Select if you are traveling by yourself or enjoying someones company. All resorts are VIP ready-to-go packages and just dates are able to be changed.</p>
                 <table id="menuplace" border="1" class="indent">
                     <thead>
@@ -95,6 +96,10 @@
                         </xsl:for-each>
                     </tbody>
                 </table>
+		     <br />
+  <input type="submit" id="btn_sub" name="btn_sub" value="Submit" />
+  <input type="reset" id="btn_res" name="btn_res" value="Reset" />
+  </form>
                         </body>
         </html>
 </xsl:template>
