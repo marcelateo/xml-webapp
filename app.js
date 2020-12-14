@@ -5,8 +5,10 @@ var http= require('http'),
     xmlParse= require('xslt-processor').xmlParse,
     xsltProcess= require('xslt-processor').xsltProcess;
 
-    var router= express();
+var router= express();
 var server= http.createServer(router);// where the server is created
+
+router.use(express.static(path.resolve(_dirname, 'views')));
 
 router.get('/', function(req, res){
 
