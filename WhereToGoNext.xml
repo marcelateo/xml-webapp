@@ -2,66 +2,66 @@
 <mainplaces>
   <section name="For singles">
 	<place>
-	  <item>Tenerife</item>
-      <type>Hot and relaxing</type>
+	  <item>Tenerife - 10 days Hot and Realxing</item>
+      <price>1.500</price>
     </place>
     <place>
-      <item>Croatia</item>
-      <type>Adventure</type>
+      <item>Croatia - 7 days Adventure</item>
+      <price>1.780</price>
     </place>
 	<place>
-      <item>Poland</item>
-      <type>Resort</type>
+      <item>Poland - 12 days Resort Ski</item>
+      <price>2.230</price>
 	  </place>
   </section>
   <section name="For couple">
     <place>
-      <item>FuerteVentura</item>
-      <type>Hot and Relaxing</type>
+      <item>FuerteVentura - 10 days Romantic</item>
+      <price>3.670</price>
     </place>
     <place>
-      <item>Paris</item>
-      <type>Cool and Romantic</type>
+      <item>Paris - 7 days Romantic</item>
+      <price>2.560</price>
     </place>
     <place>
-      <item>Greece Zakynthos</item>
-      <type>Resort</type>
+      <item>Greece Zakynthos - 12 Days Resort</item>
+      <price>4.650</price>
     </place>
     <place>
-      <item>Portugal Algarve</item>
-      <type>Resort</type>
+      <item>Portugal Algarve - 7 Days Resort</item>
+      <price>2.650</price>
     </place>
     <place>
-      <item>Spain Mallorca</item>
-      <type>Night Life</type>
-    </place>
-  </section>
-  <section name="For family">
-    <place>
-      <item>France Disney</item>
-      <type>Fun</type>
-    </place>
-    <place>
-      <item>Arkansas</item>
-      <type>Adventure</type>
-    </place>
-    <place>
-      <item>Orlando WaltDisney</item>
-      <type>Resort</type>
+      <item>Spain Mallorca - 10 Days Night Life</item>
+      <price>2.850</price>
     </place>
   </section>
-  <section name="For friends">
+  <section name="For family of 4">
     <place>
-      <item>Amsterdam</item>
-      <type>Night Life</type>
+      <item>France Disney - 7 days Fun</item>
+      <price>8.950</price>
     </place>
     <place>
-      <item>Spain Barcelona</item>
-      <type>Enjoy big city</type>
+      <item>Arkansas - 5 days Adventure</item>
+      <price>3.780</price>
     </place>
     <place>
-      <item>L.A California</item>
-      <type>Resort</type>
+      <item>Orlando WaltDisney - 4 days Resort</item>
+      <price>6.850</price>
+    </place>
+  </section>
+  <section name="For friends of 2">
+    <place>
+      <item>Amsterdam - 7 days Night life</item>
+      <price>1.550</price>
+    </place>
+    <place>
+      <item>Spain Barcelona - 7 days City tour</item>
+      <price>1.890</price>
+    </place>
+    <place>
+      <item>L.A California - 10 days Resort</item>
+      <price>3.560</price>
     </place>
   </section>
 </mainplaces>

@@ -8,60 +8,14 @@
 		
             <title>Welcome to where to go next</title>
             <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <style>
-            	XML {
-					display:none;
-				}
-				body {
-					font-family: Arial, Helvetica, sans-serif;
-					background-color: #FFFFFF;
-					margin: 5px;
-					text-align: left;
-					color:#ffe6e6 ;
-				}
-				h2 {
-					font-size: 140%;
-					color: #000000;
-					margin-top: 10px;
-				}
-				p {
-					font-size: 80%;
-					color: #000000;
-				}
-				table {
-					background-color: #ff99ff;
-					border-color: #000000;
-					border-width: thin;
-					border-collapse: collapse;
-					width: 75%;
-				}
-				th {
-					border-color: #000000;
-					font-size: 120%;
-					color: #000000;
-				}
-				td {
-					border-color: #000000;
-					font-size: 100%;
-					color: #000000;
-					padding: 5px;
-				}
-				img {
-					float: left;
-					margin-left: 10px;
-					margin-right: 10px;
-					border: 0px;
-				}
-				.indent {
-					margin-left: 78px;
-				}
-			</style>
+            <link rel="stylesheet" href="css/WhereToGoNext.css"></link>>
+            <script type="text/javascript" src="js/WhereToGoNext.js"></script>>
         </head>
             <body>
-		    <form method="post" action="edittool.asp">
-                <h2><img src= "https://www.logodesignlove.com/images/classic/next-logo-paul-rand.jpg" alt="WhereToGoNext" width="58" height="100"/> Welcome to Where to go next</h2>
+	            <h2><img src= "img/next-logo.jpg" alt="WhereToGoNext" width="58" height="100"/> Welcome to Where to go next</h2>
                 <p>Select if you are traveling by yourself or enjoying someones company. All resorts are VIP ready-to-go packages and just dates are able to be changed.</p>
-                <table id="menuplace" border="1" class="indent">
+                <p1>*The prices below for the packages cover hotel half meal and city tour.</p1>
+                <table id="menuPlace" border="1" class="indent">
                     <thead>
                         <tr>
                             <th colspan="3">Below are the options for next season</th>
@@ -69,7 +23,7 @@
                         <tr>
                             <th>Packages for</th>
                             <th>Places</th>
-                            <th>type</th>
+                            <th>price</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -89,18 +43,22 @@
                                         <xsl:value-of select="item" />
                                     </td>
                                     <td align="right">
-                                        <xsl:value-of select="type" />
-                                    </td>
+                                        <xsl:value-of select="price" />
+                                   </td>
                                 </tr>
                             </xsl:for-each>
                         </xsl:for-each>
                     </tbody>
                 </table>
-		     <br />
-  <input type="submit" id="btn_sub" name="btn_sub" value="Submit" />
-  <input type="reset" id="btn_res" name="btn_res" value="Reset" />
-  </form>
-                        </body>
+                <form class="indent">
+                    <p>
+                        <input type="button" name="btnCalcBill" value="Calculate Bill" id="calcBill" />
+                Total: €
+                <input type="text" name="txtBillAmt" /></p>
+                </form>
+ 
+                
+            </body>
         </html>
-</xsl:template>
+    </xsl:template>
 </xsl:transform>
