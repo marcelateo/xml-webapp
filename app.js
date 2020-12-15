@@ -27,8 +27,11 @@ function jsToXmlFile(filename, obj, cb) {
   fs.unlinkSync(filepath);
   fs.writeFile(filepath, xml, cb);
 }
+router.get('/', function(req, res) {
+    res.render('index');
+});
 
-router.get('/', function(req, res){
+router.get('/get/html', function(req, res){
 
 res.writeHead(200, {'Content-Type': 'text/html'});//found the page and provide message back to user
 
@@ -36,14 +39,14 @@ var xml= fs.readFileSync('WhereToGoNext.xml', 'utf8');//read each file xml and x
 var xsl= fs.readFileSync('WhereToGoNext.xsl', 'utf8');
 
 var doc= xmlParse(xml);
-var stylesheet= xmlParse(sxl);
+var stylesheet= xmlParse(xsl);
 
-var result= xsltProcess(doc, stysheet); // it does the xsl transformation
+var result = xsltProcess(doc, stylesheet); //This does our XSL Transformation
 
 res.end(result.toString()); //send the result back to the user
 });
 
 server.listen(process.env.PORT || 3000, process.env.IP ||"0.0.0.0", function(){
     var addr=server.address();
-    console.log("Server Listening at", addr.address + "+" + addr.port);
+    console.log("Server Listening at", addr.address + ":"+ addr.port);
 });
