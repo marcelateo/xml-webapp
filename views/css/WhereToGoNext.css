@@ -1,36 +1,41 @@
 html {
   position: relative;
   min-height: 100%;
+  
 }
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  line-height: 60px; /* Vertically center the text there */
-  background-color: #8077770e;
+#logo {
+  display: inline-block;
+  margin: 9px; /* margin: 20px was off */
+  height: 50px;
+  width: auto; /* correct proportions to specified height */
+  border-radius: 60%; /* makes it a circle */
 }
+
 table, th, td {
      border-collapse: collapse;
      border: 1px solid black;
      text-align: center;
+     
 }
  table {
      border-collapse: collapse;
      width:100%;
-}
+     background-color: #c5dbf585;}
+
  td, th {
-     border: 1px solid #ced4da;
+     border: 3px solid #090a0a;
      padding: 0.5rem;
      text-align: left;
+     
 }
  th {
      font-weight: bold;
+     background-color: #8ba4ad67;
+     text-align: center;
 }
 .selected {
             background-color: #dc3545;
