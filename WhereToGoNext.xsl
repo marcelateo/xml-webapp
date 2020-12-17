@@ -9,7 +9,7 @@
                         <tr>
                             <th>Packages for</th>
                             <th>Places</th>
-                            <th>price</th>
+                            <th>Price</th>
                         </tr>
                     </thead>
                     <tbody>
