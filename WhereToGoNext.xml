@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <mainplaces>
-  <section name="For singles">
+  <section name="FOR SINGLES">
 	<place>
 	  <item>Tenerife - 10 days Hot and Realxing</item>
       <price>1.500</price>
@@ -14,7 +14,7 @@
       <price>2.230</price>
 	  </place>
   </section>
-  <section name="For couple">
+  <section name="FOR COUPLES">
     <place>
       <item>FuerteVentura - 10 days Romantic</item>
       <price>3.670</price>
@@ -36,7 +36,7 @@
       <price>2.850</price>
     </place>
   </section>
-  <section name="For family of 4">
+  <section name="FOR FAMILY OF 4*">
     <place>
       <item>France Disney - 7 days Fun</item>
       <price>8.950</price>
@@ -50,7 +50,7 @@
       <price>6.850</price>
     </place>
   </section>
-  <section name="For friends of 2">
+  <section name="FOR FRIENDS OF 2">
     <place>
       <item>Amsterdam - 7 days Night life</item>
       <price>1.550</price>

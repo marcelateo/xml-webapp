@@ -4,10 +4,10 @@
                 <table id="menuPlace" border="1" class="indent">
                     <thead>
                         <tr>
-                            <th colspan="3">Below are the options for next season</th>
+                            <th colspan="3" >BELOW ARE THE OPTIONS FOR NEXT SEASON</th>
                         </tr>
                         <tr>
-                            <th>Packages for</th>
+                            <th>Packages For</th>
                             <th>Places</th>
                             <th>Price</th>
                         </tr>
