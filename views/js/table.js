@@ -1,3 +1,4 @@
+// code by Mikhail to use the get post and delete methods
 function draw_table()
 {
 	$("#results").empty();

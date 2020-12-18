@@ -38,6 +38,6 @@ table, th, td {
      text-align: center;
 }
 .selected {
-            background-color: #dc3545;
-            color: #FFF;
+            background-color: #9935dc;
+            color: rgb(132, 65, 219);
 }
