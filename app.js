@@ -71,6 +71,30 @@ router.post('/post/json', function (req, res) {
     res.redirect('back');
 
 });
+router.post('/post/delete', function (req, res) {
+
+    function deleteJSON(obj) {
+
+        console.log(obj)
+
+        xmlFileToJs('WhereToGoNext.xml', function (err, result) {
+            if (err) throw (err);
+            
+            delete result.mainplaces.section[obj.section].place[obj.place];
+
+            console.log(JSON.stringify(result, null, "  "));
+
+            jsToXmlFile('WhereToGoNext.xml', result, function(err){
+                if (err) console.log(err);
+            });
+        });
+    };
+
+    deleteJSON(req.body);
+
+    res.redirect('back');
+
+});
 
 server.listen(process.env.PORT || 3000, process.env.IP ||"0.0.0.0", function(){
     var addr=server.address();

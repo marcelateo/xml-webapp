@@ -38,9 +38,3 @@ function getParentTag(oNode, sParentType) {
     };
     return oParent;
 };
-window.addEventListener("load", function () {
-    document.forms[0].txtBillAmt.value = calculateBill('menuPlace');
-    document.querySelector("#calcBill").addEventListener("click", function () {
-        document.forms[0].txtBillAmt.value = calculateBill('menuPlace');
-    });
-});
