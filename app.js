@@ -57,7 +57,7 @@ router.post('/post/json', function (req, res) {
         xmlFileToJs('WhereToGoNext.xml', function (err, result) {
             if (err) throw (err);
             
-            result.mainplaces.section[obj.sec_n].place.push({'item': obj.item, 'price': obj.price});
+            result.mainplaces.section[obj.sec_n].place.push({'item': obj.item, 'comment': obj.comment,'price': obj.price});
 
             console.log(JSON.stringify(result, null, "  "));
 

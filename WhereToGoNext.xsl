@@ -4,18 +4,19 @@
                 <table id="menuPlace" border="1" class="indent">
                     <thead>
                         <tr>
-                            <th colspan="3" >BELOW ARE THE OPTIONS FOR NEXT SEASON</th>
+                            <th colspan="4" style="font-size:18px">BELOW ARE THE OPTIONS FOR NEXT SEASON</th>
                         </tr>
                         <tr>
-                            <th>Packages For</th>
+                            <th>Select for</th>
                             <th>Places</th>
+                            <th>Packages</th>
                             <th>Price</th>
                         </tr>
                     </thead>
                     <tbody>
                         <xsl:for-each select="/mainplaces/section">
                           <tr>
-                                <td colspan="3">
+                                <td colspan="4">
                                     <xsl:value-of select="@name" />
                                 </td>
                             </tr>
@@ -27,6 +28,9 @@
                                     </td>
                                     <td>
                                         <xsl:value-of select="item" />
+                                    </td>
+                                    <td>
+                                        <xsl:value-of select="comment" />
                                     </td>
                                     <td align="right">
                                         <xsl:value-of select="price" />
