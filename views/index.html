@@ -20,7 +20,7 @@
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-info static-top">
     <div class="container">
         <a href="#"><img id="logo" src="img/next-logo.jpg"></a>
       <a class="navbar-brand" href="#">Where To Go Next...</a>
@@ -55,20 +55,35 @@
         <h1 class="mt-5">Welcome to Where To Go Next</h1>
         <p class="lead">Here you can find the perfect holiday's package deals to enjoy with someone or just by yourself!</p>
        </div>
-       <div id="results" class="col-lg-12"></div>
+      <div id="results" class="col-lg-8 order-2 mb-4"></div>
+            <div class="col-lg-4 order-1">
+                <form enctype="application/json" action="/post/json" method="post">
+                    <div class="form-group">
+                        <select class="form-control" name="sec_n">
+                            <option value="0">For Single</option>
+                            <option value="1">For Couple</option>
+                            <option value="2">For Family</option>
+                            <option value="3">For Friends</option>
+                        </select>
+                        <input class="form-control mt-3" type="text" name="item" placeholder="Item">
+                        <input class="form-control mt-3" type="text" name="price" placeholder="Price">
+                        <button type="submit" style ="background-color: rgb(26, 151, 182);" class="btn btn-primary btn-block mt-3">Submit</button>
+                    </div>
+                </form>
     </div>
-    <p3>* Those are ready-to-go packages prices. For family packages each extra or less person will be 10%</p3>
+    </div>
+    <p3 style="font-size:80%;">* Those are ready-to-go packages prices. For family packages each extra or less person will be 10%</p3>
   </div>
 
 <!--footer -->
-<hr>
-<footer class="bg-light text-center text-lg-start">
+<footer class="bg-info text-center text-lg-start">
+    <hr>
   <!-- Grid container -->
-  <div class="container p-4">
+  <div class="container p-2">
     <!--Grid row-->
     <div class="row">
       <!--Grid column-->
-      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+      <div class="col-lg-6 col-md-12 mb-3 mb-md-0">
         <h5 class="text-uppercase">About Us</h5>
 
         <p>
@@ -80,7 +95,7 @@
       <!--Grid column-->
 
       <!--Grid column-->
-      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+      <div class="col-lg-6 col-md-12 mb-3 mb-md-0">
         <h5 class="text-uppercase">Contact Us</h5>
 
         <p>
@@ -96,7 +111,7 @@
   <!-- Grid container -->
 
   <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+  <div class="text-center p-2" style="background-color: rgba(0, 0, 0, 0.2)">
     © 2020 Copyright:
     <a class="text-dark" href="#">WhereToGoNext.com</a>
   </div>

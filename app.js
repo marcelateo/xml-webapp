@@ -10,6 +10,8 @@ var router = express(); //We set our routing to be handled by Express
 var server = http.createServer(router); //This is where our server gets created
 
 router.use(express.static(path.resolve(__dirname, 'views'))); //We define the views folder as the one where all static content will be served
+router.use(express.urlencoded({extended: true})); //We allow the data sent from the client to be coming in as part of the URL in GET and POST requests
+router.use(express.json()); //We include support for JSON that is coming from the client
 
 // Function to read in XML file and convert it to JSON
 function xmlFileToJs(filename, cb) {
@@ -44,6 +46,30 @@ var stylesheet= xmlParse(xsl);
 var result = xsltProcess(doc, stylesheet); //This does our XSL Transformation
 
 res.end(result.toString()); //send the result back to the user
+});
+router.post('/post/json', function (req, res) {
+
+    function appendJSON(obj) {
+
+        console.log(obj)
+
+        xmlFileToJs('WhereToGoNext.xml', function (err, result) {
+            if (err) throw (err);
+            
+            result.mainplaces.section[obj.sec_n].place.push({'item': obj.item, 'price': obj.price});
+
+            console.log(JSON.stringify(result, null, "  "));
+
+            jsToXmlFile('WhereToGoNext.xml', result, function(err){
+                if (err) console.log(err);
+            });
+        });
+    };
+
+    appendJSON(req.body);
+
+    res.redirect('back');
+
 });
 
 server.listen(process.env.PORT || 3000, process.env.IP ||"0.0.0.0", function(){
