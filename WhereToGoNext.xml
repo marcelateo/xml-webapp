@@ -1,70 +1,81 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalog>
-<section name="FOR WEDDINGS">
-<plant>
-<item>jack Frost</item
-<specie>Bloom Magic</specie>
-<price>54.00</price>
-</plant>
-<catalog>
-<plant>
-<item>Monstera Deliciosa</item>
-<specie>Plant Pot</specie>
-<price>12.95</price>
-</plant>
-<plant>
-<item>Meilandina mini</item>
-<specie>Standard Rose</specie>
-<price>12.95</price>
-</plant>
-<catalog>
-<section name="FOR FUNERAL">
-<plant>
-<item>Carmelia Tricolor</item>
-<specie>Shrub</specie>
-<price>19.95</price>
-</plant>
-<catalog>
-<plant>
-<item>Cephalanthus</item>
-<specie>Sanguinaria canadensis</specie>
-<price>15.50</price>
-</plant>
-<item>Chrysanthemums</item>
-<specie>canadensis</specie>
-<price>20.00</price>
-</plant>
-<section name="FOR DAILY BASIS">
-<plant>
-<item>Roses</item>
-<specie>Cut flowers</specie>
-<price>2.50</price>
-</plant>
-<catalog>
-<plant>
-<item>Lily Plant</item>
-<specie>Plant Pot</specie>
-<price>22.00</price>
-</plant>
-<plant>
-<item>Hyacinth</item>
-<specie>Mums</specie>
-<price>16.00</price>
-</plant>
-<section name="FOR HOME">
-<plant>
-<item>Hydrangea</item>
-<specie>Cut Flowers</specie>
-<price>1.90</price>
-</plant>
-<plant>
-<item>Orchid</item>
-<specie>Vase</specie>
-<price>19.99</price>
-</plant>
-<plant>
-<item>Erica Carnea</item>
-<specie>Garden</specie>
-<price>29.95</price>
-</plant>
-<catalog>
+<mainplaces>
+  <section name="FOR SINGLE">
+    <place>
+      <item>Tenerife</item>
+      <comment>10 days Hot and Relaxing</comment>
+      <price>1.500</price>
+    </place>
+    <place>
+      <item>Croatia</item>
+      <comment>7 days Adventure</comment>
+      <price>1.780</price>
+    </place>
+    <place>
+      <item>Poland</item>
+      <comment>12 days Resort Ski</comment>
+      <price>2.230</price>
+    </place>
+  </section>
+  <section name="FOR COUPLE">
+    <place>
+      <item>FuerteVentura</item>
+      <comment>10 days Romantic</comment>
+      <price>3.670</price>
+    </place>
+    <place>
+      <item>Paris</item>
+      <comment>7 days Romantic</comment>
+      <price>2.560</price>
+    </place>
+    <place>
+      <item>Greece Zakynthos</item>
+      <comment>12 Days Resort</comment>
+      <price>4.650</price>
+    </place>
+    <place>
+      <item>Portugal Algarve</item>
+      <comment>7 Days Resort</comment>
+      <price>2.650</price>
+    </place>
+    <place>
+      <item>Spain Mallorca</item>
+      <comment>10 Days Night Life</comment>
+      <price>2.850</price>
+    </place>
+  </section>
+  <section name="FOR FAMILY">
+    <place>
+      <item>France Disney</item>
+      <comment>7 days Fun</comment>
+      <price>8.950</price>
+    </place>
+    <place>
+      <item>Arkansas</item>
+      <comment>5 days Adventure</comment>
+      <price>3.780</price>
+    </place>
+    <place>
+      <item>Orlando WaltDisney</item>
+      <comment>4 days Resort</comment>
+      <price>6.850</price>
+    </place>
+  </section>
+  <section name="FOR FRIENDS">
+    <place>
+      <item>Amsterdam</item>
+      <comment>7 days Night life</comment>
+      <price>1.550</price>
+    </place>
+    <place>
+      <item>Spain Barcelona</item>
+      <comment>7 days City tour</comment>
+      <price>1.890</price>
+    </place>
+    <place>
+      <item>L.A California</item>
+      <comment>10 days Resort</comment>
+      <price>3.560</price>
+    </place>
+  </section>
+  </mainplaces>
