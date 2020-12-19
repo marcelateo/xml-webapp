@@ -5,7 +5,7 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 60px;
+  margin-bottom: 0px;
 }
 #logo {
   display: inline-block;
@@ -14,7 +14,6 @@ body {
   width: auto; /* correct proportions to specified height */
   border-radius: 60%; /* makes it a circle */
 }
-
 table, th, td {
      border-collapse: collapse;
      border: 1px solid black;
