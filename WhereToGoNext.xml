@@ -2,80 +2,68 @@
 <catalog>
 <section name="FOR WEDDINGS">
 <plant>
-<identy>031599</identy>
-<name>jack Frost</name>
+<item>jack Frost</item
 <specie>Bloom Magic</specie>
 <price>54.00</price>
 </plant>
 <catalog>
 <plant>
-<identy>031600</identy>
-<name>Monstera Deliciosa</name>
+<item>Monstera Deliciosa</item>
 <specie>Plant Pot</specie>
 <price>12.95</price>
 </plant>
 <plant>
-<identy>031601</identy>
-<name>Meilandina mini</name>
+<item>Meilandina mini</item>
 <specie>Standard Rose</specie>
 <price>12.95</price>
 </plant>
 <catalog>
 <section name="FOR FUNERAL">
 <plant>
-<identy>031700</identy>
-<name>Carmelia Tricolor</name>
+<item>Carmelia Tricolor</item>
 <specie>Shrub</specie>
 <price>19.95</price>
 </plant>
 <catalog>
 <plant>
-<identy>031701</identy>
-<name>Cephalanthus</name>
+<item>Cephalanthus</item>
 <specie>Sanguinaria canadensis</specie>
 <price>15.50</price>
 </plant>
-<identy>031702</identy>
-<name>Chrysanthemums</name>
+<item>Chrysanthemums</item>
 <specie>canadensis</specie>
 <price>20.00</price>
 </plant>
 <section name="FOR DAILY BASIS">
 <plant>
-<identy>031707</identy>
-<name>Roses</name>
+<item>Roses</item>
 <specie>Cut flowers</specie>
 <price>2.50</price>
 </plant>
 <catalog>
 <plant>
-<identy>031705</identy>
-<name>Lily Plant</name>
+<item>Lily Plant</item>
 <specie>Plant Pot</specie>
 <price>22.00</price>
 </plant>
 <plant>
-<identy>031706</identy>
-<name>Hyacinth</name>
+<item>Hyacinth</item>
 <specie>Mums</specie>
 <price>16.00</price>
 </plant>
 <section name="FOR HOME">
 <plant>
-<identy>031800</identy>
-<name>Hydrangea</name>
+<item>Hydrangea</item>
 <specie>Cut Flowers</specie>
 <price>1.90</price>
 </plant>
 <plant>
-<identy>031599</identy>
-<name>Orchid</name>
+<item>Orchid</item>
 <specie>Vase</specie>
 <price>19.99</price>
 </plant>
 <plant>
-<identy>031809</identy>
-<name>Erica Carnea</name>
+<item>Erica Carnea</item>
 <specie>Garden</specie>
 <price>29.95</price>
 </plant>
