@@ -21,7 +21,7 @@
                                 </td>
                             </tr>
                             <xsl:for-each select="place">
-                                <tr>
+                                <tr  id="{position()}">
                                     <xsl:value-of select="name" />
                                     <td align="center">
                                         <input name="item0" type="checkbox" />
