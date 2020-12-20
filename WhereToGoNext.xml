@@ -30,17 +30,17 @@
     </place>
     <place>
       <item>Greece Zakynthos</item>
-      <comment>12 Days Resort</comment>
+      <comment>12 days Resort</comment>
       <price>4.650</price>
     </place>
     <place>
       <item>Portugal Algarve</item>
-      <comment>7 Days Resort</comment>
+      <comment>7 days Resort</comment>
       <price>2.650</price>
     </place>
     <place>
       <item>Spain Mallorca</item>
-      <comment>10 Days Night Life</comment>
+      <comment>10 days Night Life</comment>
       <price>2.850</price>
     </place>
   </section>
