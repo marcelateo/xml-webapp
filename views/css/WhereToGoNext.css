@@ -6,6 +6,18 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 0px;
+  font-family: "Brush Script MT", cursive;
+}
+
+h1 {
+  color: rgba(8, 85, 129, 0.877);
+  font-family: "Brush Script MT", cursive;
+}
+
+p{
+color: rgb(10, 53, 80);
+font-family: "Brush Script MT", cursive;
+
 }
 #logo {
   display: inline-block;
